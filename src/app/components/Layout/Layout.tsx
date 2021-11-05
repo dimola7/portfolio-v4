@@ -1,6 +1,7 @@
 import Styled from "styled-components";
 import ParticlesBackground from "../ParticlesBackground";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import "../../../App.css";
 
 const Layout = ({ children }: any) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }: any) => {
       <LayoutContainer>
         <Navbar />
         <div>{children}</div>
+        <Footer />
       </LayoutContainer>
     </div>
   );
