@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Text = styled.p`
-  font-size: ${(props:any) => props.fontSize};
+  font-size: ${(props: any) => props.fontSize};
   color: ${(props: any) => props.color};
   font-weight: ${(props: any) => props.fontWeight};
   letter-spacing: ${(props: any) => props.letterSpacing};

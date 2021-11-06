@@ -16,3 +16,7 @@ body {
   background: #252627;
   background-repeat: no-repeat;
 }
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
