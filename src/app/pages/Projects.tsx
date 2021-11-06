@@ -1,9 +1,12 @@
 import Layout from "../components/Layout/Layout";
+import PageCard from "../components/PageCard/PageCard";
 
 const Projects = () => {
   return (
     <Layout>
-      <div>about</div>
+      <PageCard>
+        <h1>projects</h1>
+      </PageCard>
     </Layout>
   );
 };
