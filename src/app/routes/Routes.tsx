@@ -4,6 +4,7 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Resume from "../pages/Resume";
+import ProjectDetails from "../pages/ProjectDetails";
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route path="/projects" exact component={Projects} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="/projects/:id" exact component={ProjectDetails} />
       </Switch>
     </Router>
   );
