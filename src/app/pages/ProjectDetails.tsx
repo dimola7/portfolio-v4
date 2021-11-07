@@ -1,11 +1,15 @@
 import { useParams } from "react-router-dom";
+import Layout from "../components/Layout/Layout";
+import PageCard from "../components/PageCard/PageCard";
 
 const ProjectDetails = () => {
   let { slug }: any = useParams();
   return (
-    <div>
-      <p>hmm {slug}</p>
-    </div>
+    <Layout>
+      <PageCard>
+        <p>hmm {slug}</p>
+      </PageCard>
+    </Layout>
   );
 };
 
