@@ -23,7 +23,7 @@ const Home = () => {
           <h2>
             Hi, <br /> I'm <Span color="#ffab00">Adedimola Ogidan</Span>,{" "}
           </h2>
-          <h3>Web Developer.</h3>
+          <h3>Software Engineer.</h3>
           <p>CSS / JavaScript / React</p>
           <Button to="/projects">My projects</Button>
         </div>

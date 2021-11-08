@@ -45,7 +45,7 @@ const Footer = () => {
         <IconList>
           <IconLink
             to="https://twitter.com/dimola_"
-            // backgroundColor = "#44bcdd"
+            // backgroundColor="#44bcdd"
             target="_blank"
           >
             <FaTwitter onMouseEnter={onEnter} onMouseLeave={onLeave} />
@@ -86,6 +86,19 @@ const IconDiv = Styled.div`
   display: flex;
   justify-content: center;
   gap: 7px;
+
+div:nth-child(1) > a:hover{
+    background-color: #636e72;
+  }
+  div:nth-child(2) > a:hover{
+    background-color: #007bb7;
+  }
+  div:nth-child(3) > a:hover{
+    background-color: #2d3436;
+  }
+  div:nth-child(4) > a:hover{
+    background-color: #44bcdd;
+  }
 `;
 export const IconList = Styled.div`
   line-height: 35px;
@@ -108,7 +121,7 @@ const IconLink = Styled(Link)`
   }
 
   &:hover {
-    background-color: ${(props: any) => props.backgroundColor};
+    /* background-color: ${(props: any) => props.backgroundColor}; */
 
     * {
       fill: #fff;
