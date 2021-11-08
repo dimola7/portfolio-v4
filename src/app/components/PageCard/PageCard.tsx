@@ -14,4 +14,11 @@ const Card = styled.div`
   z-index: 1;
   height: 540px;
   overflow-y: auto;
+
+  @media only screen and (max-width: 800px) {
+    padding: 22px;
+  }
+  @media only screen and (max-width: 365px) {
+    padding: 15px;
+  }
 `;
