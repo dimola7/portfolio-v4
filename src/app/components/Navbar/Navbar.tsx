@@ -75,7 +75,7 @@ const NavLink = Styled(Link)`
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  /* &.active {
+  &:active {
         color: #fff;
         text-decoration: none;
 
@@ -88,7 +88,7 @@ const NavLink = Styled(Link)`
             left: 50%;
             position: absolute;
             background: #ffab00;
-            width: 0;
+            width: 30px;
         }
-    } */
+    }
 `;
