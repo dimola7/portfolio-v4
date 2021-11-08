@@ -6,6 +6,7 @@ const Contact = () => {
     <Layout>
       <PageCard>
         <h1>contact</h1>
+        <p>Please check social icons on the footer for now</p>
       </PageCard>
     </Layout>
   );
