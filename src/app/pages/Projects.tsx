@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Layout>
       <PageCard>
-        <h1>projects</h1>
+        <Header>projects</Header>
         <Text>Some of my recent works</Text>
         <ProjectsFlex>
           {projectData.map((project) => (
@@ -27,16 +27,31 @@ const Projects = () => {
 
 export default Projects;
 
-const Text = styled.section`
+const Header = styled.h1`
+  @media only screen and (max-width: 800px) {
+    font-size: 1.3rem;
+  }
+`;
+
+const Text = styled.p`
   font-size: 1.3rem;
   margin-top: 10px;
   margin-bottom: 20px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1rem;
+  }
 `;
 const ProjectsFlex = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
   margin: 0 25px;
+
+  @media only screen and (max-width: 800px) {
+    margin: 0;
+    gap: 40px;
+  }
 `;
 const ProjectCard = styled.div`
   width: 500px;
@@ -50,6 +65,11 @@ const ProjectCard = styled.div`
   font-family: "Acme", sans-serif;
   cursor: pointer;
 
+  @media only screen and (max-width: 800px) {
+    width: 300px;
+    height: 250px;
+  }
+
   &:hover {
     transform: scale(1.1);
   }
@@ -57,4 +77,9 @@ const ProjectCard = styled.div`
 const ProjectImg = styled.img`
   width: 500px;
   height: 287px;
+
+  @media only screen and (max-width: 800px) {
+    width: 300px;
+    height: 187px;
+  }
 `;

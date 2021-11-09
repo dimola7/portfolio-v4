@@ -26,10 +26,10 @@ const ProjectDetails = () => {
               <span>Technologies used:</span> {project.stacks}
             </p>
             <Buttons>
-              <a href={project.url}>
+              <a href={project.url} target="_blank" rel="noreferrer">
                 <button>View Site</button>
               </a>
-              <a href={project.github}>
+              <a href={project.github} target="_blank" rel="noreferrer">
                 <button>Github</button>
               </a>
             </Buttons>
