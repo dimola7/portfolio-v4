@@ -71,7 +71,9 @@ const FooterDiv = Styled.footer`
   bottom: 0;
   grid-template-columns: 1fr;
   justify-content: center;
-  height: 3.5rem;
+  align-items: center;
+  margin-left: 60px;
+  
   /* margin-top: 40px; */
   /* width: 100%; */
 
@@ -80,6 +82,8 @@ const FooterDiv = Styled.footer`
     grid-template-columns: 1fr 7fr;
     justify-content: start;
     align-items: center;
+    height: 3.5rem;
+    margin-left: 0;
   }
 `;
 const IconDiv = Styled.div`

@@ -37,15 +37,19 @@ export default Home;
 const Header = styled.section`
   display: grid;
   align-items: center;
-  margin: 150px 0;
+  margin: 80px 0;
 
   @media screen and (min-width: 1200px) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+    margin: 150px 0;
+  }
+  @media screen and (min-width: 800px) {
+    margin: 130px 0;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     @media screen and (min-width: 600px) {
       font-size: 2.5rem;
@@ -53,7 +57,7 @@ const Header = styled.section`
     }
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 
     @media screen and (min-width: 600px) {

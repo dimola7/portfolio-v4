@@ -9,12 +9,13 @@ const ProjectDetails = () => {
 
   let projects = projectData.filter((project) => project.slug === slug);
   let project = projects[0];
-  console.log(projects);
 
   return (
     <Layout>
       <PageCard>
-        <Back to="/projects">Back</Back>
+        <Back to="/projects">
+          <p>Back</p>
+        </Back>
         <ProjectDiv>
           <div>
             <Img src={project.image} alt="" />
@@ -42,7 +43,11 @@ const ProjectDetails = () => {
 
 export default ProjectDetails;
 
-const Back = styled(Link)``;
+const Back = styled(Link)`
+  p {
+    margin-bottom: 40px;
+  }
+`;
 
 const ProjectDiv = styled.div`
   display: grid;

@@ -63,7 +63,7 @@ export const projectData = [
     slug: "my-portfolio",
     url: "https://adedimola.tech/",
     github: "https://github.com/dimola7",
-    description: "This is my 4th and hands down best portfolio website yet",
+    description: "This is the 4th version of my portfolio",
     stacks: "React, Typescript, CSS",
   },
 ];
