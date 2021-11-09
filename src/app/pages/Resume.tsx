@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <Layout>
       <PageCard>
-        <h1>Résumé</h1>
+        <Header>Résumé</Header>
         <HeaderDiv>
           <p>Learn more about my skills, qualifications and experiences.</p>
         </HeaderDiv>
@@ -60,12 +60,24 @@ const Resume = () => {
 
 export default Resume;
 
+const Header = styled.h1`
+  margin-bottom: 30px;
+  
+  @media only screen and (max-width: 800px) {
+    font-size: 1.3rem;
+  }
+`;
+
 const HeaderDiv = styled.header`
   margin-bottom: 40px;
 
   p {
     margin-top: 0;
     font-size: 1.2em;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 1rem;
+    }
   }
 `;
 const ContentDiv = styled.div`
@@ -82,9 +94,12 @@ const ContentDiv = styled.div`
       flex-direction: column;
     }
   }
+  p {
+    font-size: 1rem;
+  }
   h2 {
     @media only screen and (max-width: 500px) {
-      font-size: 1.8em;
+      font-size: 1.3rem;
     }
   }
   .left-content {
@@ -147,16 +162,6 @@ const WorkDiv = styled.div`
 `;
 
 const EducationDiv = styled.div`
-  &:after {
-    content: "";
-    position: absolute;
-    top: 8px;
-    bottom: 0;
-    left: -51px;
-    width: 2px;
-    background: #ccc;
-  }
-
   div {
     position: relative;
     margin-bottom: 40px;
@@ -182,32 +187,8 @@ const EducationDiv = styled.div`
   .school {
     font-style: italic;
     margin: 0;
-
-    &:after {
-      content: "";
-      position: absolute;
-      top: 3px;
-      left: -58px;
-      width: 16px;
-      height: 16px;
-      border-radius: 10px;
-      z-index: 1;
-      box-shadow: 0 0 0 8px rgba(214, 228, 28, 0.3);
-      background: #ffab00;
-    }
   }
 
-  @media only screen and (max-width: 800px) {
-    margin-left: 30px;
-
-    &:after {
-      left: 0;
-    }
-
-    .education__summary::after {
-      left: -37px;
-    }
-  }
   @media only screen and (max-width: 500px) {
     h3 {
       font-size: 1.1em;
