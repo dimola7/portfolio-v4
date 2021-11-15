@@ -24,25 +24,38 @@ const Logo = Styled.h1`
   color: #ffab00;
   font-family: "Kaushan Script", cursive;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 `;
 const Nav = Styled.nav`
-  margin: 40px auto;
+display: grid;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 660px) {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 const MenuIcon = Styled.img`
   cursor: pointer;
+  display: none;
 
   @media screen and (min-width: 660px) {
     display: none;
   }
 `;
 const LinkFlex = Styled.div`
-  display: none;
+  /* display: none; */
+  display: flex;
+  gap: 10px;
 
   @media screen and (min-width: 660px) {
-    display: flex;
     gap: 20px;
   }
 `;
