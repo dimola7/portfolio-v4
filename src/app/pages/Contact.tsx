@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Layout>
       <PageCard>
-        <h1>contact</h1>
+        <h1>Contact</h1>
         <p>Please check social icons on the footer for now</p>
       </PageCard>
     </Layout>

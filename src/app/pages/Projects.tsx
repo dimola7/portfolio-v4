@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Layout>
       <PageCard>
-        <Header>projects</Header>
+        <Header>Projects</Header>
         <Text>Some of my recent works</Text>
         <ProjectsFlex>
           {projectData.map((project) => (
