@@ -21,7 +21,7 @@ export const projectData = [
     title: "DeepDiive",
     image: deepDiive,
     slug: "deep-diive",
-    url: "https://deepdiive.netlify.app/",
+    // url: "https://deepdiive.netlify.app/",
     github: "https://github.com/Co-Lab-You-Belong-in-Tech/deep-diive",
     description: "DeepDiive is not your average ice-breaker. The MVP is a web app experience that accommodates two players. The goal of this web-app is to trigger more meaningful conversations among remote workmates. Scientific study and user research was used to gauge what makes conversations meaningful and this was used to inform the questions included in the card deck. We hypothesize that there is a positive correlation between the impact of these conversations and the overall happiness at work per user.",
     stacks: "React, CSS, Node, Express, MongoDB, SocketIo",
