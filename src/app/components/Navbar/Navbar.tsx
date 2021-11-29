@@ -29,9 +29,7 @@ const Logo = Styled.h1`
 `;
 const Nav = Styled.nav`
 display: grid;
-  /* flex-direction: column; */
   justify-content: center;
-  /* align-items: center; */
   margin-bottom: 20px;
 
   @media screen and (min-width: 660px) {
@@ -51,7 +49,6 @@ const MenuIcon = Styled.img`
   }
 `;
 const LinkFlex = Styled.div`
-  /* display: none; */
   display: flex;
   gap: 10px;
 

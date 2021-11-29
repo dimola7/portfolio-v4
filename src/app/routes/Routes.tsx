@@ -7,7 +7,6 @@ import Resume from "../pages/Resume";
 import ProjectDetails from "../pages/ProjectDetails";
 import NotFound from "../pages/NotFound";
 
-
 const Routes = () => {
   return (
     <Router>
