@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import Styled from "styled-components";
 import { FaGithub, FaTwitter, FaLinkedinIn, FaCodepen } from "react-icons/fa";
