@@ -17,7 +17,7 @@ const Footer = () => {
       <IconDiv className="social-network social-circle">
         <IconList>
           <IconLink
-            to="https://codepen.io/dimola"
+            href="https://codepen.io/dimola"
             // backgroundColor:"#636e72"
             target="_blank"
           >
@@ -26,7 +26,7 @@ const Footer = () => {
         </IconList>
         <IconList>
           <IconLink
-            to="https://www.linkedin.com/in/dimola-o-4671b2a6/"
+            href="https://www.linkedin.com/in/dimola-o-4671b2a6/"
             // backgroundColor="#007bb7"
             target="_blank"
           >
@@ -35,7 +35,7 @@ const Footer = () => {
         </IconList>
         <IconList>
           <IconLink
-            to="https://github.com/dimola7"
+            href="https://github.com/dimola7"
             // backgroundColor="#2d3436"
             target="_blank"
           >
@@ -44,7 +44,7 @@ const Footer = () => {
         </IconList>
         <IconList>
           <IconLink
-            to="https://twitter.com/dimola_"
+            href="https://twitter.com/dimola_"
             // backgroundColor="#44bcdd"
             target="_blank"
           >
@@ -107,7 +107,7 @@ div:nth-child(1) > a:hover{
 export const IconList = Styled.div`
   line-height: 35px;
 `;
-const IconLink = Styled(Link)`
+const IconLink = Styled.a`
   background-color: #fff;
   display: inline-block;
   position: relative;
