@@ -3,6 +3,10 @@ import Styled from "styled-components";
 import { FaGithub, FaTwitter, FaLinkedinIn, FaCodepen } from "react-icons/fa";
 import { Text, Span } from "../styles/text.styles";
 
+interface Props {
+  backgroundColor: string;
+}
+
 const Footer = () => {
   const onEnter = ({ currentTarget }: any) => {
     gsap.to(currentTarget, { rotation: "+=360" });
@@ -17,7 +21,7 @@ const Footer = () => {
         <IconList>
           <IconLink
             href="https://codepen.io/dimola"
-            // backgroundColor:"#636e72"
+            backgroundColor="#636e72"
             target="_blank"
           >
             <FaCodepen onMouseEnter={onEnter} onMouseLeave={onLeave} />
@@ -26,7 +30,7 @@ const Footer = () => {
         <IconList>
           <IconLink
             href="https://www.linkedin.com/in/dimola-o-4671b2a6/"
-            // backgroundColor="#007bb7"
+            backgroundColor="#007bb7"
             target="_blank"
           >
             <FaLinkedinIn onMouseEnter={onEnter} onMouseLeave={onLeave} />
@@ -35,7 +39,7 @@ const Footer = () => {
         <IconList>
           <IconLink
             href="https://github.com/dimola7"
-            // backgroundColor="#2d3436"
+            backgroundColor="#2d3436"
             target="_blank"
           >
             <FaGithub onMouseEnter={onEnter} onMouseLeave={onLeave} />
@@ -44,7 +48,7 @@ const Footer = () => {
         <IconList>
           <IconLink
             href="https://twitter.com/dimola_"
-            // backgroundColor="#44bcdd"
+            backgroundColor="#44bcdd"
             target="_blank"
           >
             <FaTwitter onMouseEnter={onEnter} onMouseLeave={onLeave} />
@@ -54,7 +58,6 @@ const Footer = () => {
 
       <Text
         color="#bbb"
-        //   textAlign="center"
       >
         Adedimola Ogidan <Span color="#ffab00">&copy; 2021</Span>
       </Text>
@@ -89,24 +92,11 @@ const IconDiv = Styled.div`
   display: flex;
   justify-content: center;
   gap: 7px;
-
-div:nth-child(1) > a:hover{
-    background-color: #636e72;
-  }
-  div:nth-child(2) > a:hover{
-    background-color: #007bb7;
-  }
-  div:nth-child(3) > a:hover{
-    background-color: #2d3436;
-  }
-  div:nth-child(4) > a:hover{
-    background-color: #44bcdd;
-  }
 `;
 export const IconList = Styled.div`
   line-height: 35px;
 `;
-const IconLink = Styled.a`
+const IconLink = Styled.a<Props>`
   background-color: #fff;
   display: inline-block;
   position: relative;
@@ -124,7 +114,7 @@ const IconLink = Styled.a`
   }
 
   &:hover {
-    /* background-color: ${(props: any) => props.backgroundColor}; */
+    background-color: ${(props: any) => props.backgroundColor};
 
     * {
       fill: #fff;
