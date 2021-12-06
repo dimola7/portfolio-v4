@@ -1,6 +1,6 @@
 import Layout from "../components/Layout/Layout";
 import PageCard from "../components/PageCard/PageCard";
-import me from "../assets/images/me.jpeg";
+import me from "../assets/images/me.jpg";
 import styled from "styled-components";
 import html from "../assets/icons/html.svg";
 import css from "../assets/icons/css.svg";
@@ -61,6 +61,7 @@ const Img = styled.img`
   border-radius: 50%;
   width: 300px;
   height: 300px;
+  object-fit: cover;
 `;
 
 const Header = styled.h1`

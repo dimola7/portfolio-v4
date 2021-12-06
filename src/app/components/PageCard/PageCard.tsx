@@ -12,7 +12,7 @@ const Card = styled.div`
   padding: 50px;
   position: relative;
   z-index: 1;
-  height: 540px;
+  height: 500px;
   overflow-y: auto;
 
   @media only screen and (max-width: 800px) {

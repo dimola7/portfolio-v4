@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        role: "Software Engineer",
+        role: "Associate Software Engineer",
         location: "Lagos, Nigeria",
         company: "Decagon",
         timeline: { "from": "March 2021", "to": "Present" },
