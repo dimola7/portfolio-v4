@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Styled from "styled-components";
 import menuIcon from "../../assets/icons/menu-icon.svg";
 
@@ -8,11 +8,11 @@ const Navbar = () => {
       <Logo>Adedimola</Logo>
       <MenuIcon src={menuIcon} alt="" />
       <LinkFlex>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/resume">Resume</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLinks to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLinks>
+        <NavLinks to="/about">About</NavLinks>
+        <NavLinks to="/projects">Projects</NavLinks>
+        <NavLinks to="/resume">Resume</NavLinks>
+        <NavLinks to="/contact">Contact</NavLinks>
       </LinkFlex>
     </Nav>
   );
@@ -52,11 +52,17 @@ const LinkFlex = Styled.div`
   display: flex;
   gap: 10px;
 
+  .active{
+    border-width: 0 0 2px;
+    border-style: solid;
+    border-color: #ffab00;
+  }
+
   @media screen and (min-width: 660px) {
     gap: 20px;
   }
 `;
-const NavLink = Styled(Link)`
+const NavLinks = Styled(NavLink)`
   color: #fff;
   padding: 15px 0;
   position: relative;
@@ -85,20 +91,4 @@ const NavLink = Styled(Link)`
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  &:active {
-        color: #fff;
-        text-decoration: none;
-
-        &:after {
-            background: none repeat scroll 0 0 transparent;
-            bottom: 0;
-            content: '';
-            display: block;
-            height: 2px;
-            left: 50%;
-            position: absolute;
-            background: #ffab00;
-            width: 30px;
-        }
-    }
 `;

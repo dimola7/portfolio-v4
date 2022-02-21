@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
@@ -7,20 +7,20 @@ import Resume from "../pages/Resume";
 import ProjectDetails from "../pages/ProjectDetails";
 import NotFound from "../pages/NotFound";
 
-const Routes = () => {
+const Routers = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
-        <Route path="/projects" exact component={Projects} />
-        <Route path="/resume" exact component={Resume} />
-        <Route path="/contact" exact component={Contact} />
-        <Route path="/projects/:slug" exact component={ProjectDetails} />
-        <Route component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/:slug" element={<ProjectDetails />} />
+        <Route element={<NotFound />} />
+      </Routes>
     </Router>
   );
 };
 
-export default Routes;
+export default Routers;
