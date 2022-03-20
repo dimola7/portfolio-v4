@@ -46,16 +46,16 @@ const ProjectsFlex = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
-  margin: 0 25px;
+  justify-content: center;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1430px) {
     margin: 0;
     gap: 40px;
   }
 `;
 const ProjectCard = styled.div`
   width: 500px;
-  height: 350px;
+  max-height: 350px;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   object-fit: contain;
@@ -66,8 +66,7 @@ const ProjectCard = styled.div`
   cursor: pointer;
 
   @media only screen and (max-width: 800px) {
-    width: 300px;
-    height: 250px;
+    width: 95%;
   }
 
   &:hover {
@@ -75,11 +74,6 @@ const ProjectCard = styled.div`
   }
 `;
 const ProjectImg = styled.img`
-  width: 500px;
-  height: 287px;
-
-  @media only screen and (max-width: 800px) {
-    width: 300px;
-    height: 187px;
-  }
+  width: 100%;
+  max-height: 287px;
 `;

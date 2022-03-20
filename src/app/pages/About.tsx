@@ -51,17 +51,34 @@ export default About;
 
 const AboutMe = styled.div`
   display: grid;
+  justify-items: center;
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 1300px) {
     grid-template-columns: 1fr 2fr;
     margin: 0 50px;
+    justify-items: left;
+  }
+  @media only screen and (min-width: 950px) and (max-width: 1299px) {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 50px;
+    justify-items: left;
   }
 `;
 const Img = styled.img`
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 2rem;
   width: 300px;
   height: 300px;
   object-fit: cover;
+
+  @media only screen and (max-width: 370px) {
+    width: 250px;
+    height: 250px;
+  }
+  @media only screen and (max-width: 310px) {
+    width: 220px;
+    height: 220px;
+  }
 `;
 
 const Header = styled.h1`
@@ -73,9 +90,11 @@ const Header = styled.h1`
   }
 `;
 const TextDiv = styled.div`
+    font-size: 13px;
   p {
     @media only screen and (min-width: 800px) {
       font-weight: 500;
+      font-size: 16px;
     }
   }
 `;
@@ -83,10 +102,16 @@ const Tech = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   margin-top: 60px;
 
   img {
-    height: 67px;
-    width: 80px;
+    height: 37px;
+    width: 50px;
+    
+    @media only screen and (min-width: 800px) {
+      height: 47px;
+      width: 60px;
+    }
   }
 `;

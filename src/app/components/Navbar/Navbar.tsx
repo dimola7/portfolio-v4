@@ -1,19 +1,20 @@
 import { NavLink } from "react-router-dom";
 import Styled from "styled-components";
-import menuIcon from "../../assets/icons/menu-icon.svg";
+import SideBar from "./SideBar";
+import { NavData } from "../../data/navbar";
 
 const Navbar = () => {
   return (
     <Nav>
       <Logo>Adedimola</Logo>
-      <MenuIcon src={menuIcon} alt="" />
       <LinkFlex>
-        <NavLinks to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLinks>
-        <NavLinks to="/about">About</NavLinks>
-        <NavLinks to="/projects">Projects</NavLinks>
-        <NavLinks to="/resume">Resume</NavLinks>
-        <NavLinks to="/contact">Contact</NavLinks>
+        {NavData.map((item, i) => (
+          <NavLinks to={item.path} key={i}>
+            {item.title}
+          </NavLinks>
+        ))}
       </LinkFlex>
+      <SideBar />
     </Nav>
   );
 };
@@ -28,25 +29,11 @@ const Logo = Styled.h1`
   justify-content: center;
 `;
 const Nav = Styled.nav`
-display: grid;
-  justify-content: center;
-  margin-bottom: 20px;
-
-  @media screen and (min-width: 660px) {
   display: flex;
   flex-direction: row;
     margin: 40px auto;
     align-items: center;
     justify-content: space-between;
-  }
-`;
-const MenuIcon = Styled.img`
-  cursor: pointer;
-  display: none;
-
-  @media screen and (min-width: 660px) {
-    display: none;
-  }
 `;
 const LinkFlex = Styled.div`
   display: flex;
@@ -58,10 +45,11 @@ const LinkFlex = Styled.div`
     border-color: #ffab00;
   }
 
-  @media screen and (min-width: 660px) {
-    gap: 20px;
+  @media screen and (max-width: 700px){
+    display: none;
   }
 `;
+
 const NavLinks = Styled(NavLink)`
   color: #fff;
   padding: 15px 0;
