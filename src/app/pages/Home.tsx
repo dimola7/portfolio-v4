@@ -59,6 +59,7 @@ const Header = styled.section`
   h3 {
     font-size: 1.3rem;
     font-weight: 500;
+    margin-top: 20px;
 
     @media screen and (min-width: 600px) {
       font-size: 2rem;
