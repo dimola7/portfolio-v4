@@ -69,23 +69,21 @@ export default Footer;
 
 const FooterDiv = Styled.footer`
   display: grid;
+  grid-template-columns: 1fr 7fr;
+  justify-content: start;
+  align-items: center;
+  height: 3.5rem;
+  margin-left: 0;
+  margin-top: auto;
   position: absolute;
   bottom: 0;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
   
-  /* margin-top: 40px; */
-  /* width: 100%; */
-
-  @media screen and (min-width: 660px) {
-    /* justify-content: space-between; */
-    grid-template-columns: 1fr 7fr;
-    justify-content: start;
-    align-items: center;
-    height: 3.5rem;
-    margin-left: 0;
+  @media screen and (max-width: 660px) {
+    grid-template-columns: 1fr;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
   }
 `;
 const IconDiv = Styled.div`

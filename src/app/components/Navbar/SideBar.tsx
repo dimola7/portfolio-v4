@@ -58,7 +58,6 @@ const SideNav = styled.div`
   }
   .nav-menu {
     width: 0;
-    background-color: #060b26;
     height: 100vh;
     display: flex;
     justify-content: center;

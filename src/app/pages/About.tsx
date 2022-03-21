@@ -65,7 +65,6 @@ const AboutMe = styled.div`
   }
 `;
 const Img = styled.img`
-  /* border-radius: 50%; */
   border-radius: 2rem;
   width: 300px;
   height: 300px;
