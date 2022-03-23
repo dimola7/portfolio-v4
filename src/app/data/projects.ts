@@ -2,7 +2,8 @@ import musicBox from "../assets/images/music-box.png";
 import deepDiive from "../assets/images/deepdiive.png";
 import filmVibe from "../assets/images/movie-info.png";
 import globalWeather from "../assets/images/global-weather.png";
-import tekBlog from "../assets/images/tek-blog.png";
+import githubFinder from "../assets/images/github-finder.png";
+// import tekBlog from "../assets/images/tek-blog.png";
 import portfolio from "../assets/images/portfolio-v4.png";
 
 export const projectData = [
@@ -38,6 +39,16 @@ export const projectData = [
   },
   {
     id: 4,
+    title: "Github Finder",
+    image: githubFinder,
+    slug: "github-finder",
+    url: "https://viewgithub.netlify.app/",
+    github: "https://github.com/dimola7/github-finder",
+    description: "A web application that allows you to search for users on Github and also see their basic information. I made use of GitHub's Developer API.",
+    stacks: "React, Typescript, CSS, Tailwind",
+  },
+  {
+    id: 5,
     title: "Global Weather",
     image: globalWeather,
     slug: "global-weather",
@@ -46,18 +57,18 @@ export const projectData = [
     description: "A weather application that allows you to search for any city in the world, and gets the weather conditions of that city. It shows the weather for 5 days, the current day and 4 days after. It leverages the Accuweather API to fetch the weather data.",
     stacks: "HTML, CSS, JavaScript",
   },
+  // {
+  //   id: 6,
+  //   title: "TekBlog",
+  //   image: tekBlog,
+  //   slug: "tek-blog",
+  //   // url: "https://tekblog.netlify.app/",
+  //   // github: "https://github.com/dimola7/MERN-stack-tekblog",
+  //   description: "...",
+  //   stacks: "React, TypeScript, CSS, Node, Express, MongoDB",
+  // },
   {
-    id: 5,
-    title: "TekBlog",
-    image: tekBlog,
-    slug: "tek-blog",
-    // url: "https://tekblog.netlify.app/",
-    // github: "https://github.com/dimola7/MERN-stack-tekblog",
-    description: "...",
-    stacks: "React, TypeScript, CSS, Node, Express, MongoDB",
-  },
-  {
-    id: 6,
+    id: 7,
     title: "Portfolio Website v4",
     image: portfolio,
     slug: "my-portfolio",
