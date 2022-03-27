@@ -50,7 +50,7 @@ const ProjectsFlex = styled.div`
 
   @media only screen and (max-width: 1430px) {
     margin: 0;
-    gap: 40px;
+    gap: 20px;
   }
 `;
 const ProjectCard = styled.div`

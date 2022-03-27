@@ -4,7 +4,7 @@ export const experienceData = [
         role: "Associate Software Engineer",
         location: "Lagos, Nigeria",
         company: "Decagon",
-        timeline: { "from": "March 2021", "to": "Present" },
+        timeline: { "from": "February 2021", "to": "Present" },
         summary: "• Currently working on the frontend of internal products, using React and TypeScript \n• Gained experience writing unit and integration tests. \n• Got exposed to Agile methodologies."
     },
     {
@@ -12,7 +12,7 @@ export const experienceData = [
         role: "PowerApps Developer",
         location: "Lagos, Nigeria",
         company: "Infinion Technologies",
-        timeline: { "from": "November 2019", "to": "May 2020" },
+        timeline: { "from": "November 2019", "to": "June 2020" },
         summary: "• Worked with Microsoft tools to provide solutions for enterprise clients. \n• Built business applications, using PowerApps and Power Automate. \n• Created action cards in Kaizala, using JavaScript."
     },
     {
