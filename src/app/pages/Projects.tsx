@@ -37,6 +37,7 @@ const Text = styled.p`
   font-size: 1.3rem;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: 500;
 
   @media only screen and (max-width: 800px) {
     font-size: 1rem;

@@ -2,6 +2,7 @@ import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
+import Footer from "../components/Footer/Footer";
 import { Span } from "../components/styles/text.styles";
 import { gsap } from "gsap";
 
@@ -28,6 +29,7 @@ const Home = () => {
           <Button to="/projects">My projects</Button>
         </div>
       </Header>
+      <Footer />
     </Layout>
   );
 };

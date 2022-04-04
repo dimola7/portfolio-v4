@@ -1,17 +1,20 @@
+import {ReactNode} from "react";
 import Styled from "styled-components";
 import ParticlesBackground from "../ParticlesBackground";
 import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
 import "../../../App.css";
 
-const Layout = ({ children }: any) => {
+interface Props {
+  children: ReactNode
+}
+
+const Layout = ({ children }: Props) => {
   return (
     <div style={{ maxHeight: "100vh" }}>
       <ParticlesBackground />
       <LayoutContainer>
         <Navbar />
         <div>{children}</div>
-        <Footer />
       </LayoutContainer>
     </div>
   );
