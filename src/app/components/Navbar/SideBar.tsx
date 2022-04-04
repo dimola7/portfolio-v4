@@ -69,7 +69,7 @@ const SideNav = styled.div`
 
   .nav-menu-active.active {
     left: 0;
-    transition: width 900ms cubic-bezier(0.25, 0.1, 0.24, 1) * /;
+    transition: width 900ms cubic-bezier(0.25, 0.1, 0.24, 1);
   }
 
   .nav-text {

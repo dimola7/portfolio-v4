@@ -74,6 +74,7 @@ const HeaderDiv = styled.header`
   p {
     margin-top: 0;
     font-size: 1.2em;
+    font-weight: 500;
 
     @media only screen and (max-width: 800px) {
       font-size: 1rem;
