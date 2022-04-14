@@ -14,7 +14,7 @@ const Contact = () => {
   const [message, setMessage] = useState("")
 
     const submitForm = (e:any) => {
-        var url = "https://formspree.io/f/xdobljwn";
+        var url = "https://formspree.io/f/mpzbyjly";
         var request = new XMLHttpRequest();
         request.open('POST', url, true);
 
@@ -51,7 +51,7 @@ const Contact = () => {
           <p>
             I'm currently open to opportunities, if you wanna get in touch, fill
             up the form below or send an{" "}
-            <a href="mailto:didiogidan@gmail.com">email</a> and let's talk
+            <a href="mailto:adedimolaogidan@gmail.com">email</a> and let's talk
           </p>
           <form onSubmit={submitForm} className="contacts">
             <div className="inputflex">
