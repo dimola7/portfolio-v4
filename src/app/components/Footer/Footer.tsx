@@ -29,7 +29,7 @@ const Footer = () => {
         </IconList>
         <IconList>
           <IconLink
-            href="https://www.linkedin.com/in/dimola-ogidan-4671b2a6/"
+            href="https://www.linkedin.com/in/adedimola-ogidan"
             backgroundColor="#007bb7"
             target="_blank"
           >

@@ -1,11 +1,11 @@
 export const experienceData = [
     {
         id: 1,
-        role: "Associate Software Engineer",
+        role: "Software Engineer",
         location: "Lagos, Nigeria",
         company: "Decagon",
         timeline: { "from": "February 2021", "to": "Present" },
-        summary: "• Currently working on the frontend of internal products, using React and TypeScript \n• Gained experience writing unit and integration tests. \n• Got exposed to Agile methodologies."
+        summary: "• Worked closely with the product team to build Decagon Placement Tracker, an enterprise application that helps process and track the placement of engineers to companies for their fellowship. \n• Worked on Decagon Recruitment Portal, an application that allows people to register for decagon’s dev bootcamp. \n• Implemented and deployed key business features and requirements. \n• Participated in business and domain planning and made valuable contributions to the project. \n• Got exposed to Agile methodologies."
     },
     {
         id: 2,
