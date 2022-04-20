@@ -5,6 +5,7 @@ import globalWeather from "../assets/images/global-weather.png";
 import githubFinder from "../assets/images/github-finder.png";
 // import tekBlog from "../assets/images/tek-blog.png";
 import portfolio from "../assets/images/portfolio-v4.png";
+import decagon from "../assets/images/placement-tracker.png";
 
 export const projectData = [
   {
@@ -15,10 +16,20 @@ export const projectData = [
     url: "https://themusicbox.netlify.app/",
     github: "https://github.com/dimola7/music-box-web-music-box-frontend-group-b",
     description: "A music streaming web application, where users can stream songs, create playlists, add songs to the playlists, and a few other features. \n A user can also search for songs, albums, artists and playlists. \n A user is required to sign in or sign up to use the application.",
-    stacks: "React, TypeScript, CSS, Material UI, Node, Express, MongoDB, Github Actions ",
+    stacks: "React, TypeScript, CSS, Material UI, Node, Express, MongoDB, Jest, Github Actions ",
   },
   {
     id: 2,
+    title: "Decagon Placement Tracker",
+    image: decagon,
+    slug: "decagon-placement-tracker",
+    url: "https://fellowship.decagonhq.dev/",
+    // github: "https://github.com/dimola7/music-box-web-music-box-frontend-group-b",
+    description: "An enterprise application that helps process and track the placement of engineers to companies for their fellowship.",
+    stacks: "React, TypeScript, CSS, Github Actions",
+  },
+  {
+    id: 3,
     title: "DeepDiive",
     image: deepDiive,
     slug: "deep-diive",
@@ -28,7 +39,7 @@ export const projectData = [
     stacks: "React, CSS, Node, Express, MongoDB, SocketIo",
   },
   {
-    id: 3,
+    id: 4,
     title: "FilmVibe",
     image: filmVibe,
     slug: "film-vibe",
@@ -38,7 +49,7 @@ export const projectData = [
     stacks: "HTML, CSS, JavaScript",
   },
   {
-    id: 4,
+    id: 5,
     title: "Github Finder",
     image: githubFinder,
     slug: "github-finder",
@@ -48,7 +59,7 @@ export const projectData = [
     stacks: "React, Typescript, CSS, Tailwind",
   },
   {
-    id: 5,
+    id: 6,
     title: "Global Weather",
     image: globalWeather,
     slug: "global-weather",
@@ -58,7 +69,7 @@ export const projectData = [
     stacks: "HTML, CSS, JavaScript",
   },
   // {
-  //   id: 6,
+  //   id: 7,
   //   title: "TekBlog",
   //   image: tekBlog,
   //   slug: "tek-blog",
@@ -68,7 +79,7 @@ export const projectData = [
   //   stacks: "React, TypeScript, CSS, Node, Express, MongoDB",
   // },
   {
-    id: 7,
+    id: 8,
     title: "Portfolio Website v4",
     image: portfolio,
     slug: "my-portfolio",

@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/in/dimola-ogidan-4671b2a6/"
+              href="https://www.linkedin.com/in/adedimola-ogidan"
               target="_blank"
               rel="noreferrer"
             >
