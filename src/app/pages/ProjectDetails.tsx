@@ -34,12 +34,10 @@ const ProjectDetails = () => {
               ) : (
                 <button>Coming soon</button>
               )}
-              {project.github ? (
+              {project.github && (
                 <a href={project.github} target="_blank" rel="noreferrer">
                   <button>Github</button>
                 </a>
-              ) : (
-                <button>Github</button>
               )}
             </Buttons>
           </div>
