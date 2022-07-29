@@ -141,8 +141,9 @@ const WorkDiv = styled.div`
     color: #ffab00;
   }
   .company {
-    color: #fff;
+    color: #D3D3D3;
     font-size: 1em;
+    font-weight: 600;
     margin: 0;
     margin-top: 3px;
   }

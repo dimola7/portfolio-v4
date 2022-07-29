@@ -1,14 +1,22 @@
 export const experienceData = [
     {
         id: 1,
-        role: "Software Engineer",
+        role: "Frontend Engineer",
         location: "Lagos, Nigeria",
-        company: "Decagon",
-        timeline: { "from": "February 2021", "to": "Present" },
-        summary: "• Worked closely with the product team to build Decagon Placement Tracker, an enterprise application that helps process and track the placement of engineers to companies for their fellowship. \n• Worked on Decagon Recruitment Portal, an application that allows people to register for decagon’s dev bootcamp. \n• Implemented and deployed key business features and requirements. \n• Participated in business and domain planning and made valuable contributions to the project. \n• Got exposed to Agile methodologies."
+        company: "Alerzo",
+        timeline: { "from": "June 2022", "to": "Present" },
+        summary: "• Working on the mobile and web sides of Veedez, a book keeping application."
     },
     {
         id: 2,
+        role: "Software Engineer",
+        location: "Lagos, Nigeria",
+        company: "Decagon",
+        timeline: { "from": "January 2021", "to": "June 2022" },
+        summary: "• Worked closely with the product team to build Decagon Placement Tracker, an enterprise application that helps process and track the placement of engineers to companies for their fellowship. \n• Worked on Decagon Recruitment Portal, an application that allows people to register for decagon’s dev bootcamp. \n• Implemented and deployed key business features and requirements. \n• Participated in business and domain planning and made valuable contributions to the project. \n• Got exposed to Agile methodologies."
+    },
+    {
+        id: 3,
         role: "PowerApps Developer",
         location: "Lagos, Nigeria",
         company: "Infinion Technologies",
@@ -16,7 +24,7 @@ export const experienceData = [
         summary: "• Worked with Microsoft tools to provide solutions for enterprise clients. \n• Built business applications, using PowerApps and Power Automate. \n• Created action cards in Kaizala, using JavaScript."
     },
     {
-        id: 3,
+        id: 4,
         role: "Frontend Developer Intern",
         location: "Lagos, Nigeria",
         company: "Multistream Technologies.",
