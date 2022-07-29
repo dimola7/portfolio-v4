@@ -25,7 +25,7 @@ export const experienceData = [
     },
     {
         id: 4,
-        role: "Frontend Developer Intern",
+        role: "Frontend Developer",
         location: "Lagos, Nigeria",
         company: "Multistream Technologies.",
         timeline: { "from": "June 2019", "to": "November 2019" },
