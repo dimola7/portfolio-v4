@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import Styled from "styled-components";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaCodepen } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn, FaGitlab } from "react-icons/fa";
 import { Text, Span } from "../styles/text.styles";
 
 interface Props {
@@ -12,7 +12,7 @@ const Footer = () => {
     gsap.to(currentTarget, { rotation: "+=360" });
   };
   const onLeave = ({ currentTarget }: any) => {
-    gsap.to(currentTarget, { rotation: "-=360" });
+    gsap.to(currentTarget, { rotation: "-360" });
   };
 
   return (
@@ -20,11 +20,11 @@ const Footer = () => {
       <IconDiv className="social-network social-circle">
         <IconList>
           <IconLink
-            href="https://codepen.io/dimola"
-            backgroundColor="#636e72"
+            href="https://gitlab.com/dimola"
+            backgroundColor="#fc6d26"
             target="_blank"
           >
-            <FaCodepen onMouseEnter={onEnter} onMouseLeave={onLeave} />
+            <FaGitlab onMouseEnter={onEnter} onMouseLeave={onLeave} />
           </IconLink>
         </IconList>
         <IconList>

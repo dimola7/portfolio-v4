@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
 import PageCard from "../components/PageCard/PageCard";
-import { FaGithub, FaLinkedinIn, FaCodepen } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaGitlab } from "react-icons/fa";
 import { ToastContainer } from "react-toastify";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -107,10 +107,10 @@ const Contact = () => {
             <p>LinkedIn</p>
           </div>
           <div>
-            <a href="https://codepen.io/dimola" target="_blank" rel="noreferrer">
-              <FaCodepen />
+            <a href="https://gitlab.com/dimola" target="_blank" rel="noreferrer">
+              <FaGitlab />
             </a>
-            <p>CodePen</p>
+            <p>Gitlab</p>
           </div>
         </CardFooter>
       </PageCard>
