@@ -5,7 +5,7 @@ export const experienceData = [
         location: "Lagos, Nigeria",
         company: "Alerzo",
         timeline: { "from": "June 2022", "to": "Present" },
-        summary: "• Working on the mobile and web sides of Veedez, a book keeping application."
+        summary: "• Working on the mobile and web apps of Veedez, a book keeping application. \n• Worked on the Alerzo website and websites for Veedez and AlerzoPay. \n• Reviewing pull requests by team members."
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const experienceData = [
         location: "Lagos, Nigeria",
         company: "Decagon",
         timeline: { "from": "February 2021", "to": "June 2022" },
-        summary: "• Worked closely with the product team to build Decagon Placement Tracker, an enterprise application that helps process and track the placement of engineers to companies for their fellowship. \n• Worked on Decagon Recruitment Portal, an application that allows people to register for decagon’s dev bootcamp. \n• Implemented and deployed key business features and requirements. \n• Participated in business and domain planning and made valuable contributions to the project. \n• Got exposed to Agile methodologies."
+        summary: "• Worked closely with the product team to build Decagon Placement Tracker, an enterprise application that helps process and track the placement of engineers to companies. \n• Worked on Decagon Recruitment Portal, for the bootcamp details and registration. \n• Implemented and deployed key business features and requirements. \n• Got exposed to Agile methodologies."
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const experienceData = [
         location: "Lagos, Nigeria",
         company: "Multistream Technologies.",
         timeline: { "from": "June 2019", "to": "November 2019" },
-        summary: "• Designed, developed, and maintained websites, using HTML and CSS. \n• Conferred with the development team to resolve conflicts, develop content criteria and choose solutions. \n• Gained exposure to the version control system, Git."
+        summary: "• Contributed to a learning management system project, ProdigyLMS. \n• Designed, developed, and maintained websites, using HTML and CSS. \n• Conferred with the development team to resolve conflicts, develop content criteria and choose solutions. \n• Gained exposure to the version control system, Git."
     }
 ]
 
