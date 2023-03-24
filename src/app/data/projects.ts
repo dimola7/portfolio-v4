@@ -1,10 +1,10 @@
 import musicBox from '../assets/images/music-box.png';
-import deepDiive from '../assets/images/deepdiive.png';
+// import deepDiive from '../assets/images/deepdiive.png';
 import filmVibe from '../assets/images/movie-info.png';
-import globalWeather from '../assets/images/global-weather.png';
+// import globalWeather from '../assets/images/global-weather.png';
 import githubFinder from '../assets/images/github-finder.png';
 // import tekBlog from "../assets/images/tek-blog.png";
-import portfolio from '../assets/images/portfolio-v4.png';
+// import portfolio from '../assets/images/portfolio-v4.png';
 import decagon from '../assets/images/placement-tracker.png';
 import veedez from '../assets/images/veedez.png';
 import alerzo from '../assets/images/alerzo.png';
