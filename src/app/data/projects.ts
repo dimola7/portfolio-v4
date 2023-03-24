@@ -5,10 +5,13 @@ import filmVibe from '../assets/images/movie-info.png';
 import githubFinder from '../assets/images/github-finder.png';
 // import tekBlog from "../assets/images/tek-blog.png";
 // import portfolio from '../assets/images/portfolio-v4.png';
-import decagon from '../assets/images/placement-tracker.png';
+// import decagon from '../assets/images/placement-tracker.png';
+import placementTracker from '../assets/images/placementTracker.png';
+import decagonHQ from '../assets/images/decagonHq.png';
 import veedez from '../assets/images/veedez.png';
 import alerzo from '../assets/images/alerzo.png';
 import alerzoPay from '../assets/images/alerzoPay.png';
+import touchMark from '../assets/images/touchMark.png';
 
 export const projectData = [
   {
@@ -18,12 +21,12 @@ export const projectData = [
     slug: 'veedez',
     url: ' https://veedez.com',
     description:
-      'Veedez is an all‑in‑one bookkeeping and inventory tool for retailers and SMEs that allows them to efficiently manage available stock, send invoices, track transactions, and receive insight into their business performance all from their smartphones.',
+      'Veedez is an all in one bookkeeping and inventory tool for retailers and SMEs that allows them to efficiently manage available stock, send invoices, track transactions, and receive insight into their business performance all from their smartphones.',
     stacks: 'React, TypeScript, Next.js, GraphQL, Redux.js, React Native',
   },
   {
     id: 10,
-    title: 'alerzoPay Admin',
+    title: 'alerzoPay',
     image: alerzoPay,
     slug: 'alerzo-pay',
     url: ' https://alerzopay.com/',
@@ -40,14 +43,32 @@ export const projectData = [
     stacks: 'React, Next.js',
   },
   {
+    id: 12,
+    title: 'TouchMark',
+    image: touchMark,
+    slug: 'touchmark',
+    // url: 'https://fellowship.decagonhq.dev/',
+    description: '...',
+    stacks: 'React, TypeScript, Tailwind',
+  },
+  {
     id: 2,
     title: 'Decagon Placement Tracker',
-    image: decagon,
+    image: placementTracker,
     slug: 'decagon-placement-tracker',
-    url: 'https://fellowship.decagonhq.dev/',
-    // github: "https://github.com/dimola7/music-box-web-music-box-frontend-group-b",
+    url: 'https://decagonhq.com/fellowship/',
     description:
       'An enterprise application that helps process and track the placement of engineers to companies for their fellowship.',
+    stacks: 'React, TypeScript, CSS, Github Actions',
+  },
+  {
+    id: 13,
+    title: 'Decagon',
+    image: decagonHQ,
+    slug: 'decagon',
+    url: 'https://decagonhq.com/',
+    description:
+      'Decagon institute is an elite software engineering and leadership training school that equips high potential individuals with world-class software engineering skills. \n Decagon also outsources its talents to external organisations',
     stacks: 'React, TypeScript, CSS, Github Actions',
   },
   {
