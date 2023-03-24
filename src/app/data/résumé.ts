@@ -5,7 +5,7 @@ export const experienceData = [
         location: "Lagos, Nigeria",
         company: "Alerzo",
         timeline: { "from": "June 2022", "to": "Present" },
-        summary: "• Working on the mobile and web apps of Veedez, a book keeping application. \n• Worked on the Alerzo website and websites for Veedez and AlerzoPay. \n• Reviewing pull requests by team members."
+        summary: "• Currently developing a SaaS product called Veedez, a bookkeeping and inventory management app, while contributing on both the mobile and web apps. \n• Worked on the Alerzo website and websites for Veedez and AlerzoPay. \n• Worked on the admin dashboard for AlerzoPay \n• Engaged in code reviews and providing constructive feedback to team members."
     },
     {
         id: 2,
