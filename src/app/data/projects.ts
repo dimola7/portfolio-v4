@@ -21,7 +21,7 @@ export const projectData = [
     slug: 'veedez',
     url: ' https://veedez.com',
     description:
-      'Veedez is an all in one bookkeeping and inventory tool for retailers and SMEs that allows them to efficiently manage available stock, send invoices, track transactions, and receive insight into their business performance all from their smartphones.',
+      'Veedez is an-all-in one bookkeeping and inventory tool for retailers and SMEs that allows them to efficiently manage available stock, send invoices, track transactions, and receive insight into their business performance all from their smartphones.',
     stacks: 'React, TypeScript, Next.js, GraphQL, Redux.js, React Native',
   },
   {
@@ -30,7 +30,7 @@ export const projectData = [
     image: alerzoPay,
     slug: 'alerzo-pay',
     url: ' https://alerzopay.com/',
-    description: 'Alerzopay is a payment platform by alerzo.',
+    description: 'Alerzopay is an all-round financial solution that offers ease in making and accepting payment with a user-friendly interface and diverse payment options',
     stacks: 'React, TypeScript, Next.js, React Query, Redux.js',
   },
   {
@@ -39,7 +39,7 @@ export const projectData = [
     image: alerzo,
     slug: 'alerzo',
     url: ' https://staging.alerzo.com/',
-    description: 'The marketing website for Alerzo Limited ',
+    description: 'Alerzo is an all-in-one technology platform designed to equip micro-businesses with the digital products and services necessary to run profitable and sustainable businesses.',
     stacks: 'React, Next.js',
   },
   {
