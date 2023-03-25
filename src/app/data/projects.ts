@@ -30,7 +30,8 @@ export const projectData = [
     image: alerzoPay,
     slug: 'alerzo-pay',
     url: ' https://alerzopay.com/',
-    description: 'Alerzopay is an all-round financial solution that offers ease in making and accepting payment with a user-friendly interface and diverse payment options',
+    description:
+      'Alerzopay is an all-round financial solution that offers ease in making and accepting payment with a user-friendly interface and diverse payment options',
     stacks: 'React, TypeScript, Next.js, React Query, Redux.js',
   },
   {
@@ -38,8 +39,9 @@ export const projectData = [
     title: 'Alerzo Website',
     image: alerzo,
     slug: 'alerzo',
-    url: ' https://staging.alerzo.com/',
-    description: 'Alerzo is an all-in-one technology platform designed to equip micro-businesses with the digital products and services necessary to run profitable and sustainable businesses.',
+    url: 'https://alerzo.com/',
+    description:
+      'Alerzo is an all-in-one technology platform designed to equip micro-businesses with the digital products and services necessary to run profitable and sustainable businesses.',
     stacks: 'React, Next.js',
   },
   {
