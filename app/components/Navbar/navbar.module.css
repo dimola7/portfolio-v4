@@ -1,0 +1,145 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #000;
+  font-family: "Kaushan Script", cursive;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.linkFlex {
+  display: flex;
+  gap: 10px;
+}
+
+.linkFlex .active {
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.navLinks {
+  color: #000;
+  padding: 15px 0;
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navLinks:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navLinks:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.navLinks::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.sideBar {
+  display: block;
+  z-index: 99;
+}
+
+.sideBar span {
+  margin-left: 16px;
+}
+
+.menuBars {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.navMenuActive {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 180px;
+  background: #fff;
+  border-left: 1px #000;
+  transition: width 900ms cubic-bezier(0.25, 0.1, 0.24, 1);
+}
+
+.navMenu {
+  width: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+}
+
+.navMenuActiveActive {
+  left: 0;
+  transition: width 900ms cubic-bezier(0.25, 0.1, 0.24, 1);
+}
+
+.navText {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  gap: 4rem;
+}
+
+.navText a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.navText a:hover {
+  background-color: #ffab00;
+}
+
+.navMenuItems {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .sideBar {
+    display: none;
+  }
+  .bars {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .linkFlex {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}
