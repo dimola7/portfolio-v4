@@ -8,21 +8,21 @@ export const NavData = [
     path: "/",
     icon: <AiFillHome />,
   },
-  {
-    title: "About",
-    path: "/about",
-    icon: <IoMdInformationCircleOutline />,
-  },
+  // {
+  //   title: "About",
+  //   path: "/about",
+  //   icon: <IoMdInformationCircleOutline />,
+  // },
   {
     title: "Projects",
     path: "/projects",
     icon: <RiSuitcaseLine />,
   },
-  {
-    title: "Resume",
-    path: "/resume",
-    icon: <IoMdPaper />,
-  },
+  // {
+  //   title: "Resume",
+  //   path: "/resume",
+  //   icon: <IoMdPaper />,
+  // },
   {
     title: "Contact",
     path: "/contact",

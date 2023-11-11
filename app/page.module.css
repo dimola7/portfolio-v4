@@ -1,34 +1,57 @@
 .header {
-  /* display: grid; */
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 80px 0;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 80px 0; 
   flex-direction: column-reverse;
 }
 
+.header h1 {
+  font-size: 60px;
+}
 .header h2 {
-  font-size: 2.2rem;
-  font-weight: 700;
+  color: #666779;
 }
 
 .header h3 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-top: 20px;
+  color: #EEEFF1;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.headerContent {
+  word-wrap: break-word;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.skills Image {
+  height: 37px;
+    width: 50px;
 }
 
 .header p {
-  letter-spacing: 3px;
-  word-spacing: 10px;
-  font-size: 0.8rem;
-  font-weight: 600;
+ color: #EEEFF1;
 }
 
 .header span {
   /* color: #ffab00; */
-  color: #000;
+  color: #00FFE5;
 }
 
 .image {
@@ -85,6 +108,10 @@
   height: 100%;
 }
 
+.stack {
+  word-spacing: 3px;
+}
+
 @media screen and (min-width: 1200px) {
   .header {
     /* grid-template-columns: 1fr 1fr;
@@ -100,7 +127,11 @@
 
 @media screen and (min-width: 800px) {
   .header {
-    margin: 130px 0;
+    margin: 90px 0;
+  }
+  .skills Image {
+    height: 47px;
+    width: 60px;
   }
 }
 
