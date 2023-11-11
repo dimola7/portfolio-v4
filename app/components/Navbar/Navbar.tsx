@@ -2,14 +2,15 @@ import Link from "next/link";
 import SideBar from "./SideBar";
 import { NavData } from "../../../data/navbar";
 import styles from "./navbar.module.css";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <nav className={styles.nav}>
-      <h1 className={styles.logo}>Adedimola</h1>
+      <h1 className={styles.logo} onClick={() => router.push("/")}>Adedimola</h1>
       <div className={styles.linkFlex}>
         {NavData.map((item, i) => (
           <Link

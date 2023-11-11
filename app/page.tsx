@@ -1,7 +1,7 @@
 "use client";
-import { useRef, useEffect } from "react";
-import Link from "next/link";
-import { gsap } from "gsap";
+// import { useRef, useEffect } from "react";
+// import Link from "next/link";
+// import { gsap } from "gsap";
 import Layout from "./components/Layout/Layout";
 import styles from "./page.module.css";
 import { APP_IMAGES } from "./constants/gallery";
@@ -10,7 +10,7 @@ import { skills } from "../data/skills";
 import Button from "./components/Button";
 
 export default function Home() {
-  const introRef = useRef<any | null>(null);
+  // const introRef = useRef<any | null>(null);
 
   // useEffect(() => {
   //   if (introRef.current) {
@@ -70,11 +70,13 @@ export default function Home() {
               text={"Get in touch"}
               color={"#000114"}
               bgColor={"#00FFE5"}
+              route="/NotFound"
             />
             <Button
               text={"View my resume"}
               color={"#EEEFF1"}
               bgColor={"#171724"}
+              route="/resume"
             />
           </div>
         </div>
