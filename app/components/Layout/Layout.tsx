@@ -10,7 +10,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <div className="container">
       {/* <ParticlesBackground /> */}
       <div className={styles.layoutContainer}>
         <Navbar />

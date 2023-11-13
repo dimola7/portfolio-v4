@@ -1,10 +1,15 @@
 .layoutContainer {
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .layoutContainer {
+    margin: 0 4rem;
+  }
+}
 @media screen and (min-width: 1000px) {
   .layoutContainer {
-    margin: 0 10rem;
+    margin: 0 2rem;
   }
 }
 @media screen and (max-width: 999px) and (min-width: 660px) {

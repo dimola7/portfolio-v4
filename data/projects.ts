@@ -1,23 +1,10 @@
-import musicBox from '../assets/images/music-box.png';
-// import deepDiive from '../assets/images/deepdiive.png';
-import filmVibe from '../assets/images/movie-info.png';
-// import globalWeather from '../assets/images/global-weather.png';
-import githubFinder from '../assets/images/github-finder.png';
-// import tekBlog from "../assets/images/tek-blog.png";
-// import portfolio from '../assets/images/portfolio-v4.png';
-// import decagon from '../assets/images/placement-tracker.png';
-import placementTracker from '../assets/images/placementTracker.png';
-import decagonHQ from '../assets/images/decagonHq.png';
-import veedez from '../assets/images/veedez.png';
-import alerzo from '../assets/images/alerzo.png';
-import alerzoPay from '../assets/images/alerzoPay.png';
-import touchMark from '../assets/images/touchMark.png';
+import { APP_IMAGES } from '../app/constants/gallery';
 
 export const projectData = [
   {
     id: 9,
     title: 'Veedez',
-    image: veedez,
+    image: APP_IMAGES.veedez,
     slug: 'veedez',
     url: ' https://veedez.com',
     description:
@@ -25,19 +12,9 @@ export const projectData = [
     stacks: 'React, TypeScript, Next.js, GraphQL, Redux.js, React Native',
   },
   {
-    id: 10,
-    title: 'alerzoPay',
-    image: alerzoPay,
-    slug: 'alerzo-pay',
-    url: ' https://alerzopay.com/',
-    description:
-      'Alerzopay is an all-round financial solution that offers ease in making and accepting payment with a user-friendly interface and diverse payment options',
-    stacks: 'React, TypeScript, Next.js, React Query, Redux.js',
-  },
-  {
     id: 11,
     title: 'Alerzo Website',
-    image: alerzo,
+    image: APP_IMAGES.alerzo,
     slug: 'alerzo',
     url: 'https://alerzo.com/',
     description:
@@ -45,9 +22,43 @@ export const projectData = [
     stacks: 'React, Next.js',
   },
   {
+    id: 1,
+    title: 'Music Box',
+    image: APP_IMAGES.musicBox,
+    slug: 'music-box',
+    url: 'https://themusicbox.netlify.app/',
+    github:
+    'https://github.com/dimola7/music-box-web-music-box-frontend-group-b',
+    description:
+    'A music streaming web application, where users can stream songs, create playlists, add songs to the playlists, and a few other features. \n A user can also search for songs, albums, artists and playlists. \n A user is required to sign in or sign up to use the application.',
+    stacks:
+    'React, TypeScript, CSS, Material UI, Node, Express, MongoDB, Jest, Github Actions ',
+  },
+  {
+    id: 4,
+    title: 'FilmVibe',
+    image: APP_IMAGES.filmVibe,
+    slug: 'film-vibe',
+    url: 'https://filmvibe.netlify.app/',
+    github: 'https://github.com/dimola7/movie-search',
+    description:
+      'A web application to search for and get information about any movie or tv show. Users can also see comments made about the movie. The movie data is gotten from theMovieDB API.',
+    stacks: 'HTML, CSS, JavaScript',
+  },
+  {
+    id: 10,
+    title: 'alerzoPay',
+    image: APP_IMAGES.alerzoPay,
+    slug: 'alerzo-pay',
+    url: ' https://alerzopay.com/',
+    description:
+    'Alerzopay is an all-round financial solution that offers ease in making and accepting payment with a user-friendly interface and diverse payment options',
+    stacks: 'React, TypeScript, Next.js, React Query, Redux.js',
+  },
+  {
     id: 12,
     title: 'TouchMark',
-    image: touchMark,
+    image: APP_IMAGES.touchmark,
     slug: 'touchmark',
     // url: 'https://fellowship.decagonhq.dev/',
     description: '...',
@@ -56,7 +67,7 @@ export const projectData = [
   {
     id: 2,
     title: 'Decagon Placement Tracker',
-    image: placementTracker,
+    image: APP_IMAGES.placementTracker,
     slug: 'decagon-placement-tracker',
     url: 'https://decagonhq.com/fellowship/',
     description:
@@ -66,30 +77,17 @@ export const projectData = [
   {
     id: 13,
     title: 'Decagon',
-    image: decagonHQ,
+    image: APP_IMAGES.decagonHQ,
     slug: 'decagon',
     url: 'https://decagonhq.com/',
     description:
       'Decagon institute is an elite software engineering and leadership training school that equips high potential individuals with world-class software engineering skills. \n Decagon also outsources its talents to external organisations',
     stacks: 'React, TypeScript, CSS, Github Actions',
   },
-  {
-    id: 1,
-    title: 'Music Box',
-    image: musicBox,
-    slug: 'music-box',
-    url: 'https://themusicbox.netlify.app/',
-    github:
-      'https://github.com/dimola7/music-box-web-music-box-frontend-group-b',
-    description:
-      'A music streaming web application, where users can stream songs, create playlists, add songs to the playlists, and a few other features. \n A user can also search for songs, albums, artists and playlists. \n A user is required to sign in or sign up to use the application.',
-    stacks:
-      'React, TypeScript, CSS, Material UI, Node, Express, MongoDB, Jest, Github Actions ',
-  },
   // {
   //   id: 3,
   //   title: 'DeepDiive',
-  //   image: deepDiive,
+  //   image: APP_IMAGES.deepDiive,
   //   slug: 'deep-diive',
   //   url: 'https://deepdiive.netlify.app/',
   //   // github: "https://github.com/Co-Lab-You-Belong-in-Tech/deep-diive",
@@ -98,20 +96,9 @@ export const projectData = [
   //   stacks: 'React, CSS, Node, Express, MongoDB, SocketIo',
   // },
   {
-    id: 4,
-    title: 'FilmVibe',
-    image: filmVibe,
-    slug: 'film-vibe',
-    url: 'https://filmvibe.netlify.app/',
-    github: 'https://github.com/dimola7/movie-search',
-    description:
-      'A web application to search for and get information about any movie or tv show. Users can also see comments made about the movie. The movie data is gotten from theMovieDB API.',
-    stacks: 'HTML, CSS, JavaScript',
-  },
-  {
     id: 5,
     title: 'Github Finder',
-    image: githubFinder,
+    image: APP_IMAGES.githubFinder,
     slug: 'github-finder',
     url: 'https://viewgithub.netlify.app/',
     github: 'https://github.com/dimola7/github-finder',
@@ -122,7 +109,7 @@ export const projectData = [
   // {
   //   id: 6,
   //   title: 'Global Weather',
-  //   image: globalWeather,
+  //   image: APP_IMAGES.globalWeather,
   //   slug: 'global-weather',
   //   url: 'https://theglobalweather.netlify.app/',
   //   github: 'https://github.com/dimola7/Weather-App',
@@ -133,21 +120,21 @@ export const projectData = [
   // {
   //   id: 7,
   //   title: "TekBlog",
-  //   image: tekBlog,
+  //   image: APP_IMAGES.tekBlog,
   //   slug: "tek-blog",
   //   // url: "https://tekblog.netlify.app/",
   //   // github: "https://github.com/dimola7/MERN-stack-tekblog",
   //   description: "...",
   //   stacks: "React, TypeScript, CSS, Node, Express, MongoDB",
   // },
-  // {
-  //   id: 8,
-  //   title: 'Portfolio Website v4',
-  //   image: portfolio,
-  //   slug: 'my-portfolio',
-  //   url: 'https://adedimola.tech/',
-  //   github: 'https://github.com/dimola7',
-  //   description: 'This is the 4th version of my portfolio',
-  //   stacks: 'React, Typescript, CSS',
-  // },
+  {
+    id: 8,
+    title: 'Portfolio Website v4',
+    image: APP_IMAGES.portfolioV4,
+    slug: 'my-portfolio',
+    url: 'https://adedimola.tech/',
+    github: 'https://github.com/dimola7',
+    description: 'This is the 4th version of my portfolio',
+    stacks: 'React, Typescript, CSS',
+  },
 ];
