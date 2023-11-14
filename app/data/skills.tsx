@@ -1,10 +1,10 @@
-import javascript from "../public/icons/javascript.svg";
-import react from "../public/icons/react.svg";
-import node from "../public/icons/node.svg";
-import typescript from "../public/icons/typescript.svg";
-import express from "../public/icons/express.svg";
-import next from "../public/icons/nextjs.svg";
-import tailwind from "../public/icons/tailwind.svg";
+import javascript from "../../public/icons/javascript.svg";
+import react from "../../public/icons/react.svg";
+import node from "../../public/icons/node.svg";
+import typescript from "../../public/icons/typescript.svg";
+import express from "../../public/icons/express.svg";
+import next from "../../public/icons/nextjs.svg";
+import tailwind from "../../public/icons/tailwind.svg";
 
 export const skills = [
   {

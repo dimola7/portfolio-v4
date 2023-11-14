@@ -1,0 +1,37 @@
+.footer_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+.footer_div span {
+    color: #00FFE5;
+}
+
+.footer_div p {
+    color: #EEEFF1;
+}
+
+.icon_div {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 660px) {
+    .footer_div {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+}

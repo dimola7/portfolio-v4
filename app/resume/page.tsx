@@ -1,6 +1,7 @@
-import Layout from "../app/components/Layout/Layout";
+"use client";
+import Layout from "../components/Layout/Layout";
 import { experienceData, educationData } from "../data/résumé";
-import styles from "../styles/resume.module.css";
+import styles from "./resume.module.css";
 
 const Resume = () => {
   return (

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
       <HomeHeader />
-      <Projects />
+      <Projects home />
     </Layout>
   );
 }

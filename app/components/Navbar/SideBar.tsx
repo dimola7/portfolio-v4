@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
-import { NavData } from "../../../data/navbar";
+import { NavData } from "../../data/navbar";
 import styles from "./navbar.module.css";
 
 const SideBar = () => {

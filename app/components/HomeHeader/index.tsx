@@ -4,7 +4,7 @@ import { isScreenWidthBelow } from '../../../utils';
 import Button from '../Button';
 import { APP_IMAGES } from '../../constants/gallery';
 import styles from "./styles.module.css";
-import { skills } from '../../../data/skills';
+import { skills } from '../../data/skills';
 
 const HomeHeader = () => {
     const width_800 = isScreenWidthBelow(800);

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import SideBar from "./SideBar";
-import { NavData } from "../../../data/navbar";
+import { NavData } from "../../data/navbar";
 import styles from "./navbar.module.css";
 import { usePathname, useRouter } from "next/navigation";
 

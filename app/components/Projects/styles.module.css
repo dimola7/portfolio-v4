@@ -47,11 +47,28 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 1rem;
+  margin: 1rem 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 32px;
   background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.button_div {
+    display: flex;
+    justify-content: center;
+}
+.view_more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0;
+  color: #00FFE5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  background-color: #171724;
   border: none;
   cursor: pointer;
 }

@@ -1,4 +1,4 @@
-import { APP_IMAGES } from '../app/constants/gallery';
+import { APP_IMAGES } from '../constants/gallery';
 
 export const projectData = [
   {
@@ -12,14 +12,14 @@ export const projectData = [
     stacks: 'React, TypeScript, Next.js, GraphQL, Redux.js, React Native',
   },
   {
-    id: 11,
-    title: 'Alerzo Website',
-    image: APP_IMAGES.alerzo,
-    slug: 'alerzo',
-    url: 'https://alerzo.com/',
+    id: 2,
+    title: 'Decagon Placement Tracker',
+    image: APP_IMAGES.placementTracker,
+    slug: 'decagon-placement-tracker',
+    url: 'https://decagonhq.com/fellowship/',
     description:
-      'Alerzo is an all-in-one technology platform designed to equip micro-businesses with the digital products and services necessary to run profitable and sustainable businesses.',
-    stacks: 'React, Next.js',
+      'An enterprise application that helps process and track the placement of engineers to companies for their fellowship.',
+    stacks: 'React, TypeScript, CSS, Github Actions',
   },
   {
     id: 1,
@@ -42,8 +42,18 @@ export const projectData = [
     url: 'https://filmvibe.netlify.app/',
     github: 'https://github.com/dimola7/movie-search',
     description:
-      'A web application to search for and get information about any movie or tv show. Users can also see comments made about the movie. The movie data is gotten from theMovieDB API.',
+    'A web application to search for and get information about any movie or tv show. Users can also see comments made about the movie. The movie data is gotten from theMovieDB API.',
     stacks: 'HTML, CSS, JavaScript',
+  },
+  {
+    id: 11,
+    title: 'Alerzo Website',
+    image: APP_IMAGES.alerzo,
+    slug: 'alerzo',
+    url: 'https://alerzo.com/',
+    description:
+      'Alerzo is an all-in-one technology platform designed to equip micro-businesses with the digital products and services necessary to run profitable and sustainable businesses.',
+    stacks: 'React, Next.js',
   },
   {
     id: 10,
@@ -63,16 +73,6 @@ export const projectData = [
     // url: 'https://fellowship.decagonhq.dev/',
     description: '...',
     stacks: 'React, TypeScript, Tailwind',
-  },
-  {
-    id: 2,
-    title: 'Decagon Placement Tracker',
-    image: APP_IMAGES.placementTracker,
-    slug: 'decagon-placement-tracker',
-    url: 'https://decagonhq.com/fellowship/',
-    description:
-      'An enterprise application that helps process and track the placement of engineers to companies for their fellowship.',
-    stacks: 'React, TypeScript, CSS, Github Actions',
   },
   {
     id: 13,

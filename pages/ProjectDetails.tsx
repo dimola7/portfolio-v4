@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { projectData } from "../data/projects";
+import { projectData } from "../app/data/projects";
 import Layout from "../app/components/Layout/Layout";
 import PageCard from "../app/components/PageCard/PageCard";
 import styled from "styled-components";
